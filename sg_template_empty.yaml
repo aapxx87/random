@@ -1,0 +1,42 @@
+semantic_game: {
+
+  concept: "",  
+  description: "",  
+  type: "",  
+  context: [],  
+
+  transforms: {
+    input: "",  
+    output: ""  
+  },
+
+  relates_to: {
+    concept: "",  
+    relation: "" 
+  },
+  
+  abstraction_level: "",  
+  role: "",  
+  interpretations: {
+    # Пример: "буддизм", "физика", "психоанализ"
+    context: "",  
+    # Какую роль играет в этом контексте    
+    role: "",  
+    # Какой смысл приобретает       
+    meaning: "",      
+  },
+
+  open_questions: [
+   "",
+  ],
+
+  example_compositions: [
+   {
+    pattern: [],      
+    description: "", 
+   }
+  ],
+
+  meta_tags: []
+}
+
