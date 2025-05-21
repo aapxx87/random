@@ -18,11 +18,8 @@ semantic_game: {
   abstraction_level: "",  
   role: "",  
   interpretations: {
-    # Пример: "буддизм", "физика", "психоанализ"
-    context: "",  
-    # Какую роль играет в этом контексте    
-    role: "",  
-    # Какой смысл приобретает       
+    context: "",     
+    role: "",     
     meaning: "",      
   },
 
