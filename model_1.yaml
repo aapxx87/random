@@ -7,7 +7,7 @@ model: {
     compose_structure,
     present_game,
     reflect_on_result
-  ]
+  ],
 
   steps_meta:{
     initiating:
