@@ -1,7 +1,11 @@
 model: {
 
- semantic_game: {
- }
+ steps: [
+  initiating -> create_pul_semantic_artefacts ->     create_links ->
+ 
+ ]
+
+iniriating: {}
 
 
 
