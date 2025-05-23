@@ -28,6 +28,15 @@ model: {
     reflect_on_result: insight,
   },
 
+thinking_modes: {
+  initiating: divergent_intentional,
+  collect_semantic_artefacts: associative_search,
+  create_links: relational_mapping,
+  compose_structure: integrative_design,
+  present_game: narrative_externalization,
+  reflect_on_result: meta_reflection
+},
+
   steps_meta:{
 
     initiating:
