@@ -19,6 +19,15 @@ model: {
     reflect            # рефлексия и переосмысление
   ],
 
+  artefact_flow: {
+    initiating: theme,
+    collect_semantic_artefacts: artefact_pool,
+    create_links: semantic_graph,
+    compose_structure: composition,
+    present_game: presentation,
+    reflect_on_result: insight,
+  },
+
   steps_meta:{
 
     initiating:
