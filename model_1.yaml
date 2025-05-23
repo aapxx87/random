@@ -1,13 +1,33 @@
 model: {
 
- steps: [
-  initiating -> create_pul_semantic_artefacts ->     create_links ->
  
- ]
 
-iniriating: {}
+steps: [
+  initiating,
+  collect_semantic_artefacts,
+  create_links,
+  compose_structure,
+  present_game,
+  reflect_on_result
+]
 
+initiating:
+  description: "Определение темы, фокуса или запроса партии"
 
+collect_semantic_artefacts:
+  description: "Поиск и отбор значимых культурных элементов (бисеринок)"
+
+create_links:
+  description: "Установление смысловых связей между элементами"
+
+compose_structure:
+  description: "Построение целостной композиции из элементов и связей"
+
+present_game:
+  description: "Оформление и предъявление партии (внутренне или внешне)"
+
+reflect_on_result:
+  description: "Рефлексия: осмысление смысла, глубины, логики партии"
 
 
 }
