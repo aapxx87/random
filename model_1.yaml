@@ -9,6 +9,16 @@ model: {
     reflect_on_result
   ],
 
+  action_types: [
+    select_theme,       # выбор идеи
+    retrieve_artefact,  # поиск элемента
+    establish_link,     # создание связи
+    transform_context,  # изменение смысла через связи
+    structure,          # организация в композицию
+    externalize,        # предъявление или описание
+    reflect            # рефлексия и переосмысление
+  ],
+
   steps_meta:{
 
     initiating:
