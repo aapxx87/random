@@ -60,21 +60,22 @@ reflective_prompt:
 
 
 [sem_flow]
-  "активный поиск решения"           :goal_driven_thinking
+  "активный поиск решения"   :goal_driven_thinking
     -> [включает]
-  "жёсткий контроль мышления"        :mental_control
+  "жёсткий контроль мышления"  :mental_control
     -> [мешает]
-  "ассоциативной спонтанности"       :associative_flexibility
+  "ассоциативной спонтанности" 
+                         :associative_flexibility
 
   "когнитивная разгрузка"            :mental_release
     -> [уменьшает]
   "навязчивую умственную активность" :inner_noise
     -> [освобождает]
-  "ассоциативное поле"               :associative_field
+  "ассоциативное поле"     :associative_field
     => [повышает_шанс]
   "внезапного осознания"             :insight
 
   "инсайт"                           :insight
     ~> [не_вызывается_намерением]
-  "целенаправленное усилие"          :intent_striving
+  "целенаправленное усилие"    :intent_striving
 [/sem_flow]
