@@ -67,7 +67,7 @@ reflective_prompt:
   "ассоциативной спонтанности" 
                          :associative_flexibility
 
-  "когнитивная разгрузка"            :mental_release
+  "когнитивная разгрузка"         :mental_release
     -> [уменьшает]
   "навязчивую умственную активность" :inner_noise
     -> [освобождает]
