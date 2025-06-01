@@ -1,4 +1,65 @@
-sem_flow]
+fragment: insight_arises_from_emptiness
+
+context:
+  - буддизм
+  - инсайт
+  - медитация
+  - пустота
+  - стремление
+
+assumptions:
+  - "инсайт не является целью, а возникает как побочный эффект"
+  - "состояние пустоты (шуньята) является благоприятной средой для инсайта"
+  - "намеренное стремление мешает возникновению инсайта"
+
+mechanisms:
+  - name: emergence_via_nonintent
+    description: "Инсайт возникает не по воле усилия, а в отсутствие целенаправленного контроля"
+    triggers:
+      - "внутренняя тишина"
+      - "остановка ума"
+      - "отсутствие фиксации на результате"
+    dynamics:
+      - "освобождение внимания от целей"
+      - "растворение субъекта как стремящегося"
+      - "разрешение для самопроявления глубинных связей"
+
+semantic_nodes:
+  - label: insight
+    description: "Внезапное, неконструируемое осознание"
+    emergent_from: emptiness
+    blocked_by: striving
+
+  - label: emptiness
+    description: "Состояние непривязанности, внутренней тишины"
+    enables: insight
+
+  - label: striving
+    description: "Целенаправленное усилие, желание достичь инсайта"
+    suppresses: insight
+
+transformations:
+  - input: striving_mind
+    output: blocked_insight
+    rule: "Активное стремление закрывает возможность возникновения инсайта"
+
+  - input: meditative_emptiness
+    output: spontaneous_insight
+    rule: "Состояние пустоты порождает пространство для появления инсайта"
+
+  - input: non-seeking
+    output: emergence
+    rule: "Отсутствие стремления способствует самопроявлению"
+
+reflective_prompt:
+  - "Что произойдёт, если ты перестанешь искать?"
+  - "Ты создаёшь инсайт — или он возникает сам?"
+  - "Можно ли желать не стремиться?"
+
+
+
+
+[sem_flow]
   "активный поиск решения"           :goal_driven_thinking
     -> [включает]
   "жёсткий контроль мышления"        :mental_control
